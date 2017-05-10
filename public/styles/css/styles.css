@@ -1,0 +1,120 @@
+/* Set black box and background */
+html,body{height:100%;margin:0;padding:0;background-color: lightgrey}
+.container-fluid,.row{height:100%;background-color:lightgrey}
+.board-container{
+  margin: auto;
+  background-color: black;
+  width: 750px;
+  height: 100px;
+  padding:0;
+}
+
+/* wrap picture */
+.wrapper{
+  position:relative;
+
+}
+
+/* back ground ocean pic */
+.ocean{
+  postion: relative;
+  display: block;
+  margin: auto;
+  width: 750px;
+  height: 400px;
+  padding-top: -9px;
+}
+
+/* text on picture */
+.picturetext {
+   position: absolute;
+   font-weight: 100;
+   color: white;
+   top: 245px;
+   left: 0;
+   width: 100%;
+}
+
+/* picture of Mr.T */
+.mrT {
+    position: absolute;
+    border-radius: 50%;
+    right: 40%;
+    top: 5%;
+    width: 20%;
+}
+
+/* Center column */
+.row-centered {
+  text-align: center;
+}
+
+/* Set column */
+.col-md-8 {
+  background-color: white;
+  display: inline-block;
+  float: none;
+  padding-bottom: 10px;
+  width: 750px;
+  height: 525px;
+}
+
+.button1 {
+    width: 700px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.button2 {
+    width: 700px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.button3 {
+    width: 700px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: #ffff00;
+    border-radius: 5px;
+}
+
+.button4 {
+    width: 700px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+/* First line of text */
+h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Second line of text */
+p {
+  text-align: center;
+}
+
+/* Set footer */
+.headercenter {
+  margin-top: 35px;
+  margin-left: 0px;
+}
+.footerheight {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 320px;
+  line-height: 65%;
+}
+
+.textheaderleft {
+  margin-left: 43px;
+}
